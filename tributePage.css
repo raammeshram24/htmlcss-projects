@@ -1,0 +1,61 @@
+
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+body {
+    background-color: rgb(185, 185, 185);
+}
+.image {
+    background-size: cover;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/199/903/612/assassin-s-creed-altair-ibn-la-ahad-video-games-wallpaper-preview.jpg);
+    width: 100%; height: 100vh;
+    position: relative; border-bottom: 3px solid blue;
+}
+
+.heading {
+    width: 600px; height: 270px; display: flex; flex-direction: column; align-items: flex-start; background-color: rgba(0,0,0,0.5);
+    position: absolute; top: 100px; left: 80px; padding: 10px;
+}
+
+h1 {
+    font-size: 2.5rem; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: left; color: white; 
+    margin-bottom: 30px; font-weight: 800; text-transform: uppercase;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.4rem; text-align: left; color: whitesmoke;
+}
+
+.data {
+    display: flex; flex-direction: column; justify-content: space-around; align-items: center; margin-top: 20px;
+    padding-bottom: 20px; background-color: rgb(185, 185, 185);
+}
+
+h2 {
+    margin: 20px auto;
+}
+hr {
+    height: 2px solid black; width: 75%; border: 1px solid black; margin-bottom: 10px;
+}
+ul {
+     width: 400px;
+}
+
+li {
+    margin: 10px auto; font-family: tahoma; font-weight: 300;
+}
+
+footer {
+    background-color: grey; width: 100%; height: 50px; color: black;
+    display: flex; justify-content: center; align-items: center;  
+}
+.link {
+    text-decoration: none; color: white;
+}
+
+.link:hover {
+       color: red; cursor: pointer; transition: all 0.3s ease-in-out;
+}
+
+.year {
+    font-weight: bold;
+}
