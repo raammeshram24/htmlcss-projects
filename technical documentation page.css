@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Tahoma;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+    display: flex;  
+    color:rgb(51, 51, 51)
+}
+
+.menuBar {
+    width: 303px;
+    height: 100vh;
+    border-right: 3px solid grey;
+    overflow: auto;
+}
+h1 {
+    font-weight: 500;  padding: 10px 10px 10px 15px;  text-align: center;
+      margin-bottom: 20px;
+      position: fixed; background-color: azure;} 
+.menuBar .mainList li {
+    list-style: none; text-decoration: none;
+    padding: 15px 20px; text-align: left; font-size: 1.1rem; font-weight: 100;
+    border-bottom: 1px solid black;  margin-right: 4px; color:rgb(51, 51, 51) ;
+   
+}
+.menuBar .mainList li:hover {
+    background-color: rgb(175, 175, 175); transition: all ease-in-out 0.3s; 
+}
+.mainList li:last-of-type {
+    border-bottom: 0;
+}
+.mainList li:first-of-type {
+    margin-top: 70px; border-top: 1px solid black;
+}
+.mainList li a {
+    text-decoration: none; cursor: pointer; color: black;
+}
+
+.data {
+    width: 78%; background-color: blue;
+    height: 100vh; overflow: scroll; display: flex; flex-direction: column;
+}
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10, .div11, .div12, .div13, .div14 {
+    background-color: rgb(238, 238, 238);
+    padding: 20px; width: 100%; border-bottom: 1px solid black;
+}
+h2 {
+    font-family: sans-serif; padding-bottom: 30px; padding-left: 20px; margin-top: 0; padding-top: 0;
+}
+p {
+    margin-left: 10px; margin-bottom: 20px; font-size: 0.95rem; padding-left: 20px;
+}
+.data_list {
+    margin-left: 80px; margin-right: 10px; 
+}
+.data_list li {
+    margin-bottom: 20px; font-size: 0.95rem;
+}
+
+.code {
+    background-color: rgb(218, 218, 218); padding: 20px 20px 5px 20px; margin: 0 50px; border-radius: 10px; margin-bottom: 10px;
+}
+.code p {
+    margin: 0 0 10px 0; font-family: Tahoma;
+}
+
+.list2 {
+    margin: 10px 60px 10px 90px;
+}
+.list2 .ul2 {
+    margin-left: 40px;
+}
+.list2 li {
+    margin: 15px 0;
+}
+.list3 {
+    margin: 10px 40px 10px 100px;
+}
+.list3 ul li {
+    margin: 20px 0;
+}
+.div14 {
+    border-bottom: 0;
+}
